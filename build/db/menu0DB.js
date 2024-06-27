@@ -42,9 +42,7 @@ if (language == "ko") {
   item0HrefList.push("%PUBLIC_URL%/menu3.html")
   item0HrefList.push("https://www.youtube.com/c/CodingCafe1")
   item0HrefList.push("https://github.com/jsontype")
-  item0HrefList.push(
-    "https://docs.google.com/spreadsheets/d/1K6zeowhIPLv2ZU4sfpQqwWXwOCbIJ1Z3/edit?rtpof=true#gid=214401444"
-  )
+  item0HrefList.push("https://jsontype.github.io/jsontype")
   // 아이템1: 아코디언 내용 텍스트
   item1NameList.push("Q. 자기소개?")
   item1NameList.push("Q. 왜 프로그래머입니까?")
@@ -161,13 +159,11 @@ if (language == "ja") {
   item0NameList.push("連絡先")
   item0NameList.push("Youtube")
   item0NameList.push("Github")
-  item0NameList.push("スキルシート")
+  item0NameList.push("新Portfolio")
   item0HrefList.push("menu3.html")
   item0HrefList.push("https://www.youtube.com/c/CodingCafe1")
   item0HrefList.push("https://github.com/jsontype")
-  item0HrefList.push(
-    "https://docs.google.com/spreadsheets/d/1K6zeowhIPLv2ZU4sfpQqwWXwOCbIJ1Z3/edit?rtpof=true#gid=214401444"
-  )
+  item0HrefList.push("https://jsontype.github.io/jsontype")
   // 아이템1: 아코디언 내용 텍스트
   item1NameList.push("Q. 自己紹介？")
   item1NameList.push("Q. なぜプログラマーですか？")

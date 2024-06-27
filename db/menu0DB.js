@@ -164,13 +164,11 @@ if (language == "ja") {
   item0NameList.push("連絡先")
   item0NameList.push("Youtube")
   item0NameList.push("Github")
-  item0NameList.push("スキルシート")
+  item0NameList.push("新Portfolio")
   item0HrefList.push("menu3.html")
   item0HrefList.push("https://www.youtube.com/c/CodingCafe1")
   item0HrefList.push("https://github.com/jsontype")
-  item0HrefList.push(
-    "https://docs.google.com/spreadsheets/d/1K6zeowhIPLv2ZU4sfpQqwWXwOCbIJ1Z3/edit?rtpof=true#gid=214401444"
-  )
+  item0HrefList.push("https://jsontype.github.io/jsontype")
   // 아이템1: 아코디언 내용 텍스트
   item1NameList.push("Q. 自己紹介？")
   item1NameList.push("Q. なぜプログラマーですか？")
@@ -273,10 +271,10 @@ item3ContentList.push(Math.round(betweenDay) + "d")
 // 공부시간 계산
 dateString = String(startYear) + "-1-1"
 dateArray = dateString.split("-")
-dateObj = new Date(dateArray[0], Number(dateArray[1])-1, dateArray[2])
-betweenDay = (today.getTime() - dateObj.getTime())/1000/60/60/4 // 마지막 숫자가 일당 공부한 시간 (예: 하루 3시간 공부할 경우 24 나누기 3 = 8)
-item3ContentList.push(Math.round(betweenDay) + 'h')
+dateObj = new Date(dateArray[0], Number(dateArray[1]) - 1, dateArray[2])
+betweenDay = (today.getTime() - dateObj.getTime()) / 1000 / 60 / 60 / 4 // 마지막 숫자가 일당 공부한 시간 (예: 하루 3시간 공부할 경우 24 나누기 3 = 8)
+item3ContentList.push(Math.round(betweenDay) + "h")
 // 스토리 사진
-item4ImageList.push('./img/bg-img/story1.jpg')
-item4ImageList.push('./img/bg-img/story2.jpg')
-item4ImageList.push('./img/bg-img/story3.jpg')
+item4ImageList.push("./img/bg-img/story1.jpg")
+item4ImageList.push("./img/bg-img/story2.jpg")
+item4ImageList.push("./img/bg-img/story3.jpg")
